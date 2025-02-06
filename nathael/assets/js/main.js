@@ -225,6 +225,17 @@ Description: Gerold - Personal Portfolio HTML5 Template
 			removalDelay: 300,
 			mainClass: "popup-mfp",
 		});
+
+		/*------------------------------------------------------
+  	/  Passion Popup
+  	/------------------------------------------------------*/
+		$(".hero-image-box img").on("click", function () {
+			$("#passionPopup").fadeIn();
+		});
+
+		$(".close-passion-popup").on("click", function () {
+			$("#passionPopup").fadeOut();
+		});
 	});
 
 	$(window).on("load", function () {
