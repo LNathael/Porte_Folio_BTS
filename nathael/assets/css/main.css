@@ -57,7 +57,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 	--tj-heading-primary: #102039;
 	--tj-heading-secondary: #056cfd;
 	--tj-theme-primary: #056cfd;
-	--tj-theme-secondary: #2195f0;
+	--tj-theme-secondary: #6a21f0;
 	--tj-theme-accent-1: #0f0715;
 	--tj-theme-accent-2: #140c1c;
 	--tj-grey-1: #747779;
@@ -376,7 +376,7 @@ a h6:hover {
 	background: var(--tj-theme-primary);
 }
 .lead {
-	font-size: 21px;
+	font-size: 20px;
 }
 .social-icons {
 	display: -webkit-box;
@@ -1084,8 +1084,8 @@ body.loaded {
 }
 
 .hero-content-box .lead {
-	max-width: 700px;
-	width: 102%;
+	max-width: 550px;
+	width: 100%;
 	margin-bottom: 0;
 }
 .hero-content-box .button-box {
@@ -1679,7 +1679,7 @@ body.loaded {
 	object-fit: cover;
 }
 .popup_modal_content {
-	background-color: var(--tj-grey-2);
+	background-color: var(--tj-white);
 	padding-top: 60px;
 }
 .popup_modal_content .portfolio_info {
